@@ -24,6 +24,9 @@ public class JobController {
 
     @PostMapping("/importCustomers")
     public void importCsvToDBJob() {
+        System.out.println("testing commit details for giturl");
+        System.out.println("testing commit details for giturl");
+        System.out.println("testing commit details for giturl");
         JobParameters jobParameters = new JobParametersBuilder()
                 .addLong("startAt", System.currentTimeMillis()).toJobParameters();
         try {
