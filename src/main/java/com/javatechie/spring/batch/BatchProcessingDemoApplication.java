@@ -9,6 +9,7 @@ public class BatchProcessingDemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BatchProcessingDemoApplication.class, args);
+		System.out.println("testing giturl repo commit details");
 	}
 
 }
